@@ -1,4 +1,8 @@
-function dobrar(numero){
-return numero * 2}
+function dobrar (numero) {
+    let resultado = numero * 2;
+ {
+        console.log("O dobro de", numero, "é", resultado);
+    }
+}
 
-console.log(`O dobre de ${numero} é: `)
+dobrar(40);
