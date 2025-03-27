@@ -1,8 +1,4 @@
-function dobrar (numero) {
-    let resultado = numero * 2;
- {
-        console.log("O dobro de", numero, "é", resultado);
-    }
-}
-
-dobrar(40);
+menuPrincipal=['Lasanha', 'Arroz', 'Feijão', 'Fritas']
+menuSobremesa=['Pudim', 'Brownie', 'Sorvete']
+menuCompleto= menuPrincipal.concat(menuSobremesa)
+console.log(menuCompleto)

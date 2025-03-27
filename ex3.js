@@ -1,9 +1,7 @@
-let chovendo = true;
-
-if (chovendo) {
-    console.log("Pegue o guarda-chuva!");
-}
-
-if (!chovendo) {
-    console.log("Não precisa de guarda-chuva.");
-}
+Frutas=["Maça", "banana", "laranja", "limão", "abacaxi"]
+console.log(Frutas)
+Frutas.splice(2,1)
+Frutas.splice(2,1)
+Frutas.push("Kiwi")
+Frutas.push("Pêssego")
+console.log(Frutas)
